@@ -40,9 +40,9 @@ var item_list = {
 
 var display = {
     Update_Inventory: function() {
-        document.getElementById("Inventory_container").innerHTML = "";
+        document.getElementById("Inventory_Container").innerHTML = "";
         for (i = 0; i < item.item_name.length(); i++) {
-            document.getElementById("Inventory_container").innerHTML += '<table><dl class="item_slot"><dt id="name"><img id="image" src='+item.image[i]+'><p>'+item.name[i]+'</p></dt><dt id="amount"><p><span>'+item.amount[i]+'</span></p></dt></dl></table>';
+            document.getElementById("Inventory_Container").innerHTML += '<table><dl class="item_slot"><dt id="name"><img id="image" src='+item.image[i]+'><p>'+item.name[i]+'</p></dt><dt id="amount"><p><span>'+item.amount[i]+'</span></p></dt></dl></table>';
         }
     }
 };
