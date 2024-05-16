@@ -41,13 +41,14 @@ var item_list = {
 var display = {
     Update_Inventory: function() {
         document.getElementById("Inventory_Container").innerHTML = "";
-        for (i = 0; i < item_name_list.length; i++) {
+        for (i = 0; i < item_list.item_name_list.length; i++) {
             document.getElementById("Inventory_Container").innerHTML += '<table><dl class="item_slot"><dt id="name"><img id="image" src='+item.image[i]+'><p>'+item.name[i]+'</p></dt><dt id="amount"><p><span>'+item.amount[i]+'</span></p></dt></dl></table>';
         }
     }
 };
 
 window.onload = function() {
+    make_items()
     display.Update_Inventory();
 };
 
