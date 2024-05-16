@@ -1,0 +1,21 @@
+.topbar {
+    height: 10%;
+}
+.mainscreen {
+    height: 90%;
+}
+.Inventory {
+    width: 20%;
+    float: left;
+}
+.Room {
+    width: 50%;
+}
+.Map {
+    width: 30%;
+}
+.unselecable {
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
