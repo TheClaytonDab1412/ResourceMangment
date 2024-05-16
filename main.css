@@ -13,6 +13,7 @@
 }
 .Map {
     width: 30%;
+    float: right;
 }
 .unselecable {
     -moz-user-select: none;
