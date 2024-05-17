@@ -18,7 +18,7 @@ var item_list = {
     item_name_list: [
 
     ],
-    item_icon_tist: [
+    item_icon_list: [
 
     ],
     item_amount_list: [
@@ -28,13 +28,13 @@ var item_list = {
         this.item_name_list[item_name] = item_name;
 
         if(item_icon != null) {
-            this.item_icon_tist[item_name] = item_icon;
+            this.item_icon_list[item_name] = item_icon;
         }
         else {
-            this.item_icon_tist[item_name] = "images/Default.png";
+            this.item_icon_list[item_name] = "images/Default.png";
         }
 
-        this.item_amount_tist[item_name] = 1;
+        this.item_amount_list[item_name] = 1;
     }
 };
 
