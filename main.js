@@ -25,16 +25,16 @@ var item_list = {
 
     ],
     make_item: function(item_name,item_icon) {
-        this.item_name_list[item_name] = item_name;
+        this.item_name_list += item_name;
 
         if(item_icon != null) {
-            this.item_icon_list[item_name] = item_icon;
+            this.item_icon_list += item_icon;
         }
         else {
-            this.item_icon_list[item_name] = "images/Default.png";
+            this.item_icon_list += "images/Default.png";
         }
 
-        this.item_amount_list[item_name] = 1;
+        this.item_amount_list += 1;
     }
 };
 
