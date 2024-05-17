@@ -14,29 +14,9 @@ var item = {
     }
 };
 
-var item_list = {
-    item_name_list: [
-
-    ],
-    item_icon_list: [
-
-    ],
-    item_amount_list: [
-
-    ],
-    make_item: function(item_name,item_icon) {
-        this.item_name_list += item_name;
-
-        if(item_icon != null) {
-            this.item_icon_list += item_icon;
-        }
-        else {
-            this.item_icon_list += "images/Default.png";
-        }
-
-        this.item_amount_list += 1;
-    }
-};
+var item_name_list = []
+var item_icon_list = []
+var item_amount_list = []
 
 var display = {
     Update_Inventory: function() {
@@ -51,6 +31,19 @@ window.onload = function() {
     make_items()
     display.Update_Inventory();
 };
+
+var make_item = function(item_name,item_icon) {
+    item_name_list.push(item_name);
+
+    if(item_icon != null) {
+        item_icon_list.push(item_icon);
+    }
+    else {
+        item_icon_list.push("images/Default.png");
+    }
+
+    item_amount_list.push(1)
+}
 
 var make_items = function() {
     item_list.make_item("IronOre","images/Default.png")
