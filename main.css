@@ -26,7 +26,12 @@
     user-select: none;
     -webkit-user-select: none;
 }
-.item_slot img {
+.item_img {
     height: 64px;
     width: 64px;
+    image-rendering: pixelated;
+}
+.item_text {
+    margin-left: 0px;
+    padding-left: 2px;
 }
