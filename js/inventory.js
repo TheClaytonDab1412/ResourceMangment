@@ -41,7 +41,7 @@ Inventory = function() {
         var str = "";
         for (var i = 0; i < self.items.length; i++){
             let item = Item.List[self.items[i].id];
-            str += "<p>" + item.name + " x" + self.items[i].amount + "</p><br>";
+            str += "<img src="+item.image_path+"height=128px width=128px>" + "<p>" + item.name + " x" + self.items[i].amount + "</p><br>";
         }
         document.getElementById("Inventory_Container").innerHTML = str;
     }
@@ -49,10 +49,11 @@ Inventory = function() {
     return self;
 }
 
-Item = function(id,name,event){
+Item = function(id,name,image_path,event){
     var self ={
         id:id,
         name:name,
+        image_path:image_path,
         event:event,
     }
     Item.List[self.id] = self;
@@ -60,4 +61,5 @@ Item = function(id,name,event){
 }
 Item.List = {};
 
-Item("iron_ore","Iron Ore")
+Item("iron_ore","Iron Ore","images/Default.png")
+Item("iron_bar","Iron Bar","images/Default.png")
