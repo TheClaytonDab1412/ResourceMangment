@@ -5,13 +5,16 @@
     height: 90%;
 }
 .Inventory {
-    width: 20%;
+    height: 90%;
+    width: 30%;
     float: left;
 }
 .Room {
-    width: 50%;
+    height: 90%;
+    width: 40%;
 }
 .Map {
+    height: 90%;
     width: 30%;
     float: right;
 }
