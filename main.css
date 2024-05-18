@@ -5,18 +5,21 @@
     height: 90%;
 }
 .Inventory {
-    height: 90%;
+    height: 100%;
     width: 30%;
     float: left;
+    background-color: gray;
 }
 .Room {
-    height: 90%;
+    height: 100%;
     width: 40%;
+    background-color: darkgray;
 }
 .Map {
-    height: 90%;
     width: 30%;
+    height: 100%;
     float: right;
+    background-color: steelblue
 }
 .unselecable {
     -moz-user-select: none;
