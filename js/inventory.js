@@ -43,7 +43,7 @@ Inventory = function() {
             let item = Item.List[self.items[i].id];
             str += "<button>" + item.name + " x" + self.items[i].amount + "</button><br>";
         }
-        document.getElementById("inventoryContainer").innerHTML = str;
+        document.getElementById("Inventory_Container").innerHTML = str;
     }
 
     return self;
