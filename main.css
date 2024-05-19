@@ -4,24 +4,19 @@
 .mainscreen {
     height: 90%;
     display: grid;
-    grid-template-columns: 200px 200px 300px ;
+    grid-template-columns: 200px 800px 400px;
 }
 
 .Inventory {
     height: 100%;
-    width: 40%;
-    float: left;
     background-color: gray;
 }
 .Room {
     height: 100%;
-    width: 40%;
     background-color: darkgray;
 }
 .Map {
-    width: 20%;
     height: 100%;
-    float: right;
     background-color: steelblue
 }
 .unselecable {
