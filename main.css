@@ -3,8 +3,10 @@
 }
 .mainscreen {
     height: 95%;
+    background-color: black;
     display: grid;
     grid-template-columns: 20% 55% 25%;
+    grid-gap: 3px;
 }
 
 .Inventory {
@@ -37,6 +39,26 @@
     image-rendering: crisp-edges;
 }
 .item_text {
+    position: relative;
+    margin: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    left: 70px;
+    top: -38px;
+}
+
+.action_slot {
+    height: 20px
+}
+
+.action_img {
+    height: 51px;
+    width: 51px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+.action_text {
     position: relative;
     margin: 0px;
     margin-block-start: 0px;

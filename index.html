@@ -3,23 +3,27 @@
     <link rel="stylesheet" href="main.css">
     <script src="js/main.js"></script>
     <script src="js/inventory.js"></script>
+    <script src="js/actions.js"></script>
     <script src="js/playersetup.js"></script>
     <script>
         playerInventory = Inventory();
-        playerInventory.addItem("iron_ore",0)
+        playerActionList = ActionList();
     </script>
 </head>
 <body>
     <div class="topbar">
+        <button onclick=""></button>
     </div>
     <div class="mainscreen">
         <div class="Inventory unselecable">
             <div id="Inventory_Container">
-                
             </div>
         </div>
         <div class="Room unselecable">
-            <p>This the Room</p>
+            <div id="Room_Container">
+                <div id="Action_Container">
+                </div>
+            </div>
         </div>
         <div class="Map unselecable">
             <p>This the Map</p>
