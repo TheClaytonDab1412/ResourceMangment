@@ -32,7 +32,10 @@
     image-rendering: crisp-edges;
 }
 .item_text {
+    position: relative;
     margin: 0px;
     margin-block-start: 0px;
     margin-block-end: 0px;
+    left: 70px;
+    top: -40px;
 }
