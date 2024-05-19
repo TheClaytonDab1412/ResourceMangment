@@ -6,7 +6,7 @@
 }
 .Inventory {
     height: 100%;
-    width: 30%;
+    width: 40%;
     float: left;
     background-color: gray;
 }
@@ -16,7 +16,7 @@
     background-color: darkgray;
 }
 .Map {
-    width: 30%;
+    width: 20%;
     height: 100%;
     float: right;
     background-color: steelblue
@@ -30,8 +30,11 @@
     height: 64px;
     width: 64px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
 }
 .item_text {
     margin: 0px;
-    padding-left: 2px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
