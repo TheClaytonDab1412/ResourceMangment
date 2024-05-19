@@ -3,7 +3,9 @@
 }
 .mainscreen {
     height: 90%;
+    column-count: 3;
 }
+
 .Inventory {
     height: 100%;
     width: 40%;
