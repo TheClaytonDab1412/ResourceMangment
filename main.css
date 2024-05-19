@@ -24,9 +24,14 @@
     user-select: none;
     -webkit-user-select: none;
 }
+
+.item_slot {
+    height: 20px
+}
+
 .item_img {
-    height: 64px;
-    width: 64px;
+    height: 51px;
+    width: 51px;
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
@@ -37,5 +42,5 @@
     margin-block-start: 0px;
     margin-block-end: 0px;
     left: 70px;
-    top: -40px;
+    top: -38px;
 }
