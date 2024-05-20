@@ -47,6 +47,12 @@
     top: -38px;
 }
 
+.Action_Container {
+    display: grid;
+    grid-template-columns: repeat(100px);
+    grid-template-rows: repeat(50px);
+}
+
 .action_slot {
     height: 20px
 }
