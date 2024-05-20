@@ -3,12 +3,9 @@
     <link rel="stylesheet" href="main.css">
     <script src="js/main.js"></script>
     <script src="js/inventory.js"></script>
-    <script src="js/actions.js"></script>
     <script src="js/playersetup.js"></script>
     <script>
         playerInventory = Inventory();
-        playerActionList = ActionList();
-        playerActionList.UnlockAction("mine_iron_ore");
     </script>
 </head>
 <body>
@@ -21,12 +18,14 @@
         </div>
         <div class="Room unselecable">
             <div id="Room_Container">
-                <div id="Action_Container">
-                </div>
             </div>
         </div>
         <div class="Map unselecable">
-            <p>This the Map</p>
+            <div class="map_grid">
+                <div class="smelter_room">
+                    <p class="map_room_name">Smelter Room</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>

@@ -47,28 +47,21 @@
     top: -38px;
 }
 
-.Action_Container {
+.smelter_room {
+    grid-area: 10 / 3 / 14 / 5;
+}
+
+.map_grid {
     display: grid;
-    grid-template-columns: repeat(100px);
-    grid-template-rows: repeat(50px);
+    gap: 5px;
+    grid-template-rows: repeat(16, 1fr);
+    grid-template-columns: repeat(12, 1fr);
 }
 
-.action_slot {
-    height: 20px
-}
-
-.action_img {
-    height: 51px;
-    width: 51px;
-    image-rendering: pixelated;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: crisp-edges;
-}
-.action_text {
+.map_location {
+    background-color: #3E92CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    margin: 0px;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-    left: 70px;
-    top: -38px;
 }
